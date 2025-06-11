@@ -26,13 +26,12 @@ Ce projet a pour but de créer un système de traitement **en temps réel** des 
 
 ```bash
 bigdata-amazon-reviews/
-├── kafka/         # Scripts de publication Kafka (Producer)
-├── spark/         # Scripts Spark Streaming pour la prédiction
-├── api/           # Application Flask (prédictions en ligne)
-├── dashboard/     # Tableau de bord offline pour visualisation globale
-├── data/          # Données téléchargées depuis Kaggle
+├── kafka/         # Scripts de publication Kafka et Scripts Spark Streaming pour la prédiction (Producer et Consummer )
+├── data/         # Data et MongoLoader
+├── Flask_app/           # Application Flask Tableau de bord offline pour visualisation globale
 ├── model/         # Modèles ML sauvegardés
-├── docker/        # Dockerfiles & configurations par service
+├── utils/        # fonctions de preprocessing
+├── Notebooks/        # entrainement de modeles
 ├── docker-compose.yml  # Orchestration de tous les conteneurs
 ├── requirements.txt    # Dépendances Python
 └── README.md
