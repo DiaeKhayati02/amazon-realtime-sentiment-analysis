@@ -17,9 +17,10 @@ Ce projet a pour but de créer un système de traitement **en temps réel** des 
 
 ## 🚀 Lancement du projet
 
-> 📌 *À venir* : configuration complète via `docker-compose.yml`  
-> Les instructions pour l’exécution et les dépendances seront ajoutées prochainement.
-
+> Les instructions pour l’exécution :
+```bash
+docker-compose up --build
+```
 ---
 
 ## 📁 Structure du projet
@@ -35,3 +36,10 @@ bigdata-amazon-reviews/
 ├── docker-compose.yml  # Orchestration de tous les conteneurs
 ├── requirements.txt    # Dépendances Python
 └── README.md
+```
+📌 Features
+
+Real-time ingestion and processing of Amazon reviews
+Automated sentiment analysis using machine learning
+Scalable, containerized microservices architecture
+Interactive dashboards for both real-time and offline analytics
