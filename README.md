@@ -39,7 +39,7 @@ bigdata-amazon-reviews/
 ```
 📌 Features
 
-Real-time ingestion and processing of Amazon reviews
-Automated sentiment analysis using machine learning
-Scalable, containerized microservices architecture
-Interactive dashboards for both real-time and offline analytics
+> Real-time ingestion and processing of Amazon reviews.
+> Automated sentiment analysis using machine learning.
+> Scalable, containerized microservices architecture.
+> Interactive dashboards for both real-time and offline analytics
